@@ -15,7 +15,7 @@ export const TabContentWrapper: React.FC<TabContentWrapperProps> = ({
   className = "" 
 }) => {
   return (
-    <div className={`space-y-6 ${className}`}>
+    <div className={`w-full space-y-6 ${className}`}>
       {children}
     </div>
   );
